@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": " node -r dotenv/config app.js",
+    "start": " node app.js",
+    "server": "nodemon -r dotenv/config app.js",
     "dev": "npm run server"
   },
   "author": "Emmanuel Otobo",
@@ -17,7 +18,6 @@
     "multer": "^1.4.1"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   }
 }
